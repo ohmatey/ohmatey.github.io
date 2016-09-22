@@ -5817,6 +5817,8 @@ button.close {
       display: inline-block;
       margin-left: auto;
       margin-right: auto; }
+  .navbar .fa.fa-bars {
+    font-size: 30px; }
 
 .navbar-brand {
   float: none; }
@@ -5858,12 +5860,17 @@ a {
     color: #8C2DAD;
     background-color: transparent; }
 
+h1 {
+  font-size: 72px;
+  font-weight: 700; }
+
+h5 {
+  color: #FBEB93;
+  font-size: 21px; }
+
 h6 {
   font-size: 36px;
   font-style: italic; }
-
-h5 {
-  color: #FBEB93; }
 
 figure {
   margin-bottom: 35px; }
