@@ -13,6 +13,19 @@
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav">
+    <ul class="">
+        
+    <li><a href="/Portfolio">Portfolio</a></li>
+
+    <li><a href="/About">About</a></li>
+
+    <li><a href="/Contact">Contact</a></li>
+
+
+    </ul>
+</div>
+
     <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header navbar-left">
@@ -21,7 +34,7 @@
         <div class="navbar-header center">
             <a class="navbar-brand clear-float" href="#">
                 <a class="logo" href="/"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="45px" height="40px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg class="" width="45px" height="40px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
     <title>Path 3</title>
     <desc>Created with Sketch.</desc>
@@ -55,14 +68,14 @@
 
             </ul>
             <div class="visible-xs-block">
-                <i class="fa fa-bars" aria-hidden="true"></i>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
             </div>
         </div>
     </div>
 </nav>
 
 
-    <div class="container page-margin-top">
+    <div id="main" class="container page-margin-top">
         <div class="intro">
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="435px" height="390px" viewBox="0 0 435 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
@@ -104,20 +117,44 @@
 
 
     <figure class="portfolio-item">
-        needahand.jpg
-        <div class="portfolio-item-image" style="background-image: url('/assets/needahand.jpg');"></div>
+        <a href="/graphic-design/2016/09/22/need-a-hand.html">
+            <div class="portfolio-item-image-container">
+                <div class="portfolio-item-image" style="background-image: url('/assets/needahand.jpg');"></div>
+            </div>
+            <div class="hover-info">
+                <div class="click-circle">
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </a>
         <figcaption>Need a hand?</figcaption>
     </figure>
 
     <figure class="portfolio-item">
-        deer.jpg
-        <div class="portfolio-item-image" style="background-image: url('/assets/deer.jpg');"></div>
+        <a href="/graphic-design/2016/09/01/Deer-in-the-moon-light.html">
+            <div class="portfolio-item-image-container">
+                <div class="portfolio-item-image" style="background-image: url('/assets/deer.jpg');"></div>
+            </div>
+            <div class="hover-info">
+                <div class="click-circle">
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </a>
         <figcaption>Deer in the moon light</figcaption>
     </figure>
 
     <figure class="portfolio-item">
-        footlockerbg.jpg
-        <div class="portfolio-item-image" style="background-image: url('/assets/footlockerbg.jpg');"></div>
+        <a href="/graphic-design/2016/09/01/Footlocker-Adidas-Superstar-competition.html">
+            <div class="portfolio-item-image-container">
+                <div class="portfolio-item-image" style="background-image: url('/assets/footlockerbg.jpg');"></div>
+            </div>
+            <div class="hover-info">
+                <div class="click-circle">
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </a>
         <figcaption>Footlocker Adidas Superstar competition</figcaption>
     </figure>
 
@@ -126,7 +163,7 @@
     </div>
 
     <footer>
-    <ul class="nav navbar-nav">
+    <!-- <ul class="nav navbar-nav">
         
     <li><a href="/Portfolio">Portfolio</a></li>
 
@@ -135,11 +172,11 @@
     <li><a href="/Contact">Contact</a></li>
 
 
-    </ul>
+    </ul> -->
 
     <div class="logo">
         <a class="logo" href="/"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="45px" height="40px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg class="make-greyscale hover-to-color" width="45px" height="40px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
     <title>Path 3</title>
     <desc>Created with Sketch.</desc>
@@ -159,8 +196,11 @@
 </a>
 
     </div>
+
 </footer>
 
+
+    <script src="/assets/index.js"></script>
 </body>
 
 </html>
