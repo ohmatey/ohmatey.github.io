@@ -5842,8 +5842,16 @@ button.close {
     background-position: center;
     transform: scale(1.2); }
 
-.title-container {
-  margin-bottom: 35px; }
+footer .navbar-nav {
+  text-align: center; }
+footer .logo {
+  position: relative; }
+
+.intro {
+  height: 80vh; }
+  .intro .title {
+    position: inline-block;
+    transform: translate(30%, -150%); }
 
 * {
   font-family: "Josefin Sans", sans-serif;
@@ -5855,10 +5863,12 @@ body {
 a {
   font-weight: 700;
   font-size: 24px;
-  color: #4A4A4A; }
+  color: #4A4A4A;
+  text-decoration: none; }
   a:hover {
     color: #8C2DAD;
-    background-color: transparent; }
+    background-color: transparent;
+    text-decoration: none; }
 
 h1 {
   font-size: 72px;
