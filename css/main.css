@@ -5878,9 +5878,11 @@ footer {
   footer .logo {
     position: relative; }
 
-.intro .title {
-  position: inline-block;
-  transform: translate(30%, -150%); }
+.intro {
+  margin-top: 50px; }
+  .intro .title {
+    position: inline-block;
+    transform: translate(0, -150%); }
 
 .sidenav {
   height: 100%;
@@ -5923,9 +5925,20 @@ footer {
 
   .sidenav a {
     font-size: 18px; } }
+.fourofour {
+  position: relative; }
+  .fourofour h1 {
+    font-size: 50vw;
+    background: linear-gradient(to right, #841AE3, #F5FD53);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .fourofour h2 {
+    display: inline-block;
+    transform: translate(20px, -170px); }
+
 * {
   font-family: "Josefin Sans", sans-serif;
-  color: #4A4A4A; }
+  color: #000; }
 
 body {
   background-color: #FDFDFD;
@@ -5969,9 +5982,13 @@ figcaption {
 .page-margin-top {
   margin-top: 100px; }
 
-.glyphicon {
-  font-size: 24px;
-  color: black; }
+.fa-bars {
+  cursor: pointer; }
+
+.absolute-center {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto; }
 
 .make-greyscale {
   -webkit-filter: grayscale(100%);
