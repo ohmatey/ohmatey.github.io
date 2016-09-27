@@ -5861,22 +5861,17 @@ button.close {
     transition: all .25s; }
   .portfolio-item .fa-arrow-circle-right {
     font-size: 52px;
-    cursor: pointer; }
+    cursor: pointer;
+    opacity: .2; }
   .portfolio-item:hover .hover-info {
     display: inline-block;
     opacity: 1; }
 
 footer {
   clear: both;
-  position: relative;
-  margin-top: 20px;
   padding: 10px;
   text-align: center;
   border-top: 2px solid white; }
-  footer .navbar-nav {
-    text-align: center; }
-  footer .logo {
-    position: relative; }
 
 .intro {
   overflow: hidden;
@@ -6010,9 +6005,10 @@ footer {
   font-family: "Josefin Sans", sans-serif;
   color: #000; }
 
-body {
+html, body {
   background-color: #FDFDFD;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  height: 100%; }
 
 a {
   font-weight: 700;
@@ -6061,6 +6057,9 @@ figcaption {
 .navbar-right {
   float: right; }
 
+.click-me {
+  color: #2DB82B; }
+
 .absolute-center {
   position: absolute;
   margin-left: auto;
@@ -6076,6 +6075,10 @@ figcaption {
 
 .hover-to-color:hover {
   filter: none; }
+
+.container-fluid:after {
+  content: "";
+  display: block; }
 
 .post img {
   margin-bottom: 30px; }
