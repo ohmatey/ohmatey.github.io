@@ -5876,7 +5876,7 @@ footer {
 .intro {
   overflow: hidden;
   position: relative;
-  padding: 0 5%; }
+  padding: 100% 5%; }
   @media (min-width: 641px) {
     .intro {
       padding: 0 30%; } }
