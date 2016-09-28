@@ -19,7 +19,7 @@ homeCarousel.init();
 
     setTimeout(function(){
         resizeHero();
-    }, 1000);
+    }, 100);
 
 
     window.addEventListener('resize', resizeHero, false);
