@@ -4,7 +4,6 @@ homeCarousel.init();
 
 (function(){
     function resizeHero(){
-        console.log("asd")
         var $hero = document.getElementById('intro-inner');
         var $mask = document.getElementById('mask');
         var maskH = window.getComputedStyle($mask, null).getPropertyValue('height')
