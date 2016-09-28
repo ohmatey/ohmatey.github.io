@@ -5880,7 +5880,7 @@ footer {
   margin-bottom: 50px; }
   @media (min-width: 641px) {
     .intro {
-      padding: 10% 30%; } }
+      padding: 5% 30%; } }
   .intro__inner {
     height: 0;
     padding: 100% 0 0;
@@ -5895,7 +5895,8 @@ footer {
   z-index: 1000; }
   @media (min-width: 641px) {
     .title {
-      transform: translate(90%, 70%); } }
+      left: 50%;
+      transform: translateY(80%); } }
 
 .container-fluid {
   padding: 0; }
