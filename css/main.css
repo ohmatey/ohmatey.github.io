@@ -5876,10 +5876,11 @@ footer {
 .intro {
   overflow: hidden;
   position: relative;
-  padding: 100% 5%; }
+  padding: 0% 5%;
+  margin-bottom: 50px; }
   @media (min-width: 641px) {
     .intro {
-      padding: 0 30%; } }
+      padding: 10% 30%; } }
   .intro__inner {
     height: 0;
     padding: 100% 0 0;
